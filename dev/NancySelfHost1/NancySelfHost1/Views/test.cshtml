@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Fons van der Plas</title>
+    <title>Test</title>
 
-   
+    
   	<style type="text/css">
 
   		body {
@@ -17,32 +17,13 @@
 
   </head>
   <body>
-	<form action="/users/login" method="post">
-  First name:<br>
-  <input type="text" name="username" value="fons">
-  <br>
-  Last name:<br>
-  <input type="password" name="password" value="plas">
-  <br><br>
-  <input type="submit" value="Login">
-</form>
-      <form action="/users/add" method="post">
-  First name:<br>
-  <input type="text" name="username" value="asfd">
-  <br>
-  Last name:<br>
-  <input type="password" name="password" value="jkl;">
-  <br><br>
-  <input type="submit" value="Register">
-</form>
-      <p>@(Model.loggedIn ? "logged in as " + Model.username : "not logged in.")</p>
-      <img src="~/Content/doggoSmall.jpg" alt="doggos" /><br />
+	<img src="~/Content/doggoSmall.jpg" alt="doggos" /><br />
     <br />
 	<strong>Fons van der Plas</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>fonsvdplas at gmail.com</i>
     <br />
-    <p>Server currently in development.
+    <p>
         &nbsp;</p>
-    <!-- Server time: @((Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds) -->
+    Server time: @((Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds)
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -r NancySelfHost1/bin/Debug
+xbuild NancySelfHost1.sln
+cp -r sources NancySelfHost1/bin/Debug/sources
+mono NancySelfHost1/bin/Debug/NancySelfHost1.exe -p 3579

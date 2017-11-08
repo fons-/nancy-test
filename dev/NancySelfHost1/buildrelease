@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -r NancySelfHost1/bin/Release
+xbuild /p:Configuration=Release NancySelfHost1.sln
+cp -r sources NancySelfHost1/bin/Release/sources
